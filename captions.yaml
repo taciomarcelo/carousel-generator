@@ -1,0 +1,23 @@
+# Configuração do gerador de legendas.
+# Todos os parâmetros são opcionais e possuem valores padrão.
+
+font: "fonts/Outfit/static/Outfit-SemiBold.ttf"
+font_color: "#FFFFFF"
+stroke_color: "#000000"
+stroke_width: auto
+background_color: "#000000"
+background_opacity: 170
+position: top
+safe_margin: 0.05
+max_text_width: 0.85
+line_spacing: auto
+letter_spacing: auto
+preview: false
+
+# A associação é feita pela ORDEM ALFABÉTICA dos arquivos em input/.
+# A quantidade de legendas deve ser igual à quantidade de imagens.
+captions:
+  - Vista aérea da fazenda
+  - Sede com ampla área verde ao redor
+  - Casa principal
+  - Área gourmet
