@@ -1,19 +1,40 @@
 # =========================================================
-# SISTEMA OPERACIONAL E EDITORES
+# SISTEMA OPERACIONAL
 # =========================================================
 .DS_Store
 Thumbs.db
 desktop.ini
 .directory
 
-.vscode/
 .idea/
 *.swp
 *.swo
 *.bak
 
+
+
+# =========================================================
+# EDITORES
+# =========================================================
+
+.vscode/
+
 *.sublime-workspace
 *.sublime-project
+
+# AI assistants
+.claude/
+.codex/
+.opencode/
+.openhands/
+
+.cline/*
+!.cline/rules.md
+
+# Cursor AI IDE
+.cursor/
+.cursor-cache/
+.cursor-tutor/
 
 # =========================================================
 # SEGURANÇA E SEGREDOS
@@ -175,6 +196,7 @@ input/
 workspace/
 WORKSPACE/
 DEPLOY.txt
+
 
 # =========================================================
 # Docker
