@@ -1,0 +1,177 @@
+# =========================================================
+# SISTEMA OPERACIONAL E EDITORES
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+*.sublime-workspace
+*.sublime-project
+
+# =========================================================
+# SEGURANÇA E SEGREDOS
+# =========================================================
+.env
+*.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+credentials.json
+cert/
+.pgpass
+
+
+# =========================================================
+# LOGS
+# =========================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# NODE.JS / FRONTEND
+# =========================================================
+node_modules/
+
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+.next/
+.nuxt/
+.svelte-kit/
+.parcel-cache/
+.tailwind_cache/
+.cache/
+
+.pnpm-store/
+.npm/
+.yarn/
+
+*.tsbuildinfo
+
+# =========================================================
+# PYTHON
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+.python-version
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+
+.ipynb_checkpoints/
+
+# =========================================================
+# RUST
+# =========================================================
+target/
+/target/doc/
+.rustup/
+
+# Para aplicações Rust, normalmente o ideal é versionar Cargo.lock.
+# Descomente a linha abaixo apenas se você realmente quiser ignorá-lo.
+# Cargo.lock
+
+# =========================================================
+# BANCOS, DUMPS E DADOS LOCAIS
+# =========================================================
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+
+dump.sql
+*.sql.gz
+*.dump
+*.backup
+
+pgdata/
+docker-volumes/
+postgresql.conf
+pg_hba.conf
+
+# =========================================================
+# ARQUIVOS GRANDES / DADOS GERADOS
+# =========================================================
+*.jsonl
+*.parquet
+*.model
+*.weights
+backup/
+temp/
+tmp/
+
+# =========================================================
+# IA / AGENTES / VETORES
+# =========================================================
+.agent/
+*.embeddings
+vector_store/
+
+
+# =========================================================
+# DOCKER
+# =========================================================
+.buildx-cache/
+.buildx-cache-new/
+
+
+# =========================================================
+# Git & worktrees
+# =========================================================
+.git/
+.worktrees/
+worktrees/
+
+
+# =========================================================
+# PASTAS DE TRABALHO / ENTRADA E SAÍDA
+# =========================================================
+z/
+WORKSPACE.txt
+DOCS.txt
+data/
+output/
+input/
+workspace/
+WORKSPACE/
+DEPLOY.txt
